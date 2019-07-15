@@ -299,7 +299,7 @@ h1, h2, h3, h4, h5,
 }
 //OWL CAROUSEL
 .owl-carousel {
-	position: relative;
+	position: absolute;
 	.owl-item {
 		opacity: .4;
 		&.active {
@@ -336,15 +336,15 @@ h1, h2, h3, h4, h5,
 		}
 	}
 	&.home-slider {
-		position: relative;
+		position: absolute;
 		height: 750px;
 		z-index: 0;
 		@include media-breakpoint-down(md){
-			height: 600px;
+			height: 400px;
 		}
 		.slider-item {
-			height: 750px;
-			position: relative;
+			height: 350px;
+			position: absolute;
 			z-index: 0;
 			@include media-breakpoint-down(md){
 				height: 600px;
